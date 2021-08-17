@@ -2,7 +2,7 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/?name={name}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "catalog-api",
