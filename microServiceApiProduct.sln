@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microServiceApiProduct", "microServiceApiProduct\microServiceApiProduct.csproj", "{6344C0E7-0436-4498-8CCB-ED6A97278D4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0664F8B3-544D-4E1C-9E18-2D7341F92E1B} = {0664F8B3-544D-4E1C-9E18-2D7341F92E1B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{0664F8B3-544D-4E1C-9E18-2D7341F92E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateWayApi", "GateWayApi\GateWayApi.csproj", "{074A3E64-D6EA-441B-BB9D-E1E6A911EF90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6344C0E7-0436-4498-8CCB-ED6A97278D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6344C0E7-0436-4498-8CCB-ED6A97278D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6344C0E7-0436-4498-8CCB-ED6A97278D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6344C0E7-0436-4498-8CCB-ED6A97278D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0664F8B3-544D-4E1C-9E18-2D7341F92E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0664F8B3-544D-4E1C-9E18-2D7341F92E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0664F8B3-544D-4E1C-9E18-2D7341F92E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0664F8B3-544D-4E1C-9E18-2D7341F92E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074A3E64-D6EA-441B-BB9D-E1E6A911EF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074A3E64-D6EA-441B-BB9D-E1E6A911EF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074A3E64-D6EA-441B-BB9D-E1E6A911EF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074A3E64-D6EA-441B-BB9D-E1E6A911EF90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F7097EE-1C72-4321-BFDC-55FECE68DB19}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/?name={name}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "catalog-api",
+          "Port": 7070         
+        }
+      ],
+      "UpstreamPathTemplate": "/test/{name}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    }
+
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000"
+  }
+
+}
+//GateWayApi.exe --urls=http://192.17.133.177:7070/
